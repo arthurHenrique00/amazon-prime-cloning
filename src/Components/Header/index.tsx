@@ -1,7 +1,6 @@
 import { HeaderSite } from './style'
 import prime_logo from '../../amazon-img/prime-logo.png'
 import amazon from '../../amazon-img/amazonprime-logo.png'
-import hbo_max from '../../amazon-img/max-logo.png'
 import bloom from '../../amazon-img/bloom-icon.png'
 import download from '../../amazon-img/download-icon.png'
 import save from '../../amazon-img/save-icon.png'

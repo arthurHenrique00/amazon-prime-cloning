@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const HeaderSite = styled.header`
   background: black;
-  padding: 9px 22px;
+  padding: 0 22px;
 
   .search {
     display: flex;
@@ -34,9 +34,15 @@ export const HeaderSite = styled.header`
         display: flex;
 
         img {
-          width: 70px;
-          height: 30px;
+          transition: transform 0.2s;
           margin-left: 22px;
+
+          &:hover {
+            background-color: blue;
+            border-radius: 9px;
+            transform: scale(1.1);
+            padding: 6px;
+          }
         }
       }
     }
@@ -44,11 +50,25 @@ export const HeaderSite = styled.header`
 
   .configs {
     ul {
+      align-items: center;
       display: flex;
+
       li {
+        list-style: none;
+        padding: 12px;
+
         img {
           width: 25px;
           height: 25px;
+          transition: transform 0.2s;
+
+          &:hover {
+            transform: scale(1.3);
+            // background: white;
+            // border-radius: 50%;
+            // padding: 12px;
+            // filter: grayscale(0);
+          }
         }
       }
     }
