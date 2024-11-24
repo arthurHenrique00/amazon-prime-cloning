@@ -25,28 +25,24 @@ const Hero = () => {
               são celebridades corporativas.
             </p>
           </div>
-          <div className="interaction">
-            <ul>
-              <li>
+          <ul className="play">
+            <li>
+              <a href="">
+                <img src={play} />
+                Assista agora
+              </a>
+            </li>
+            <div>
+              <li className="more">
                 <a href="">
-                  <img src={play} />
-                  Assista agora
+                  <img src={info} />
+                </a>
+                <a href="">
+                  <img id="rotate" src={plus} />
                 </a>
               </li>
-              <div className="more">
-                <li>
-                  <a href="">
-                    <img src={info} />
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    <img id="rotate" src={plus} />
-                  </a>
-                </li>
-              </div>
-            </ul>
-          </div>
+            </div>
+          </ul>
         </div>
       </div>
     </HeroStyled>

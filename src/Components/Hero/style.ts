@@ -39,41 +39,40 @@ export const HeroStyled = styled.div`
         }
       }
 
-      .interaction {
-        margin-top: 32px;
+      .play {
+        display: flex;
+        align-items: center;
 
-        ul {
+        li {
+          margin-top: 32px;
           display: flex;
+          list-style: none;
+          padding: 12px;
+          margin-right: 12px;
 
-          li {
-            list-style: none;
+          > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            background-color: #636e72;
             padding: 12px;
-            margin-right: 12px;
+            border-radius: 9px;
 
-            > a {
-              text-decoration: none;
-              color: white;
-              font-weight: bold;
-              font-size: 18px;
-              background-color: #636e72;
-              padding: 12px;
+            img {
+              width: 18px;
+              height: 18px;
+              margin-right: 12px;
+            }
+
+            &:hover {
+              background-color: white;
+              color: black;
               border-radius: 9px;
+              padding: 12px;
 
               img {
-                width: 18px;
-                height: 18px;
-                margin-right: 12px;
-              }
-
-              &:hover {
-                background-color: white;
-                color: black;
-                border-radius: 9px;
-                padding: 12px;
-
-                img {
-                  filter: brightness(0%);
-                }
+                filter: brightness(0%);
               }
             }
           }
@@ -83,23 +82,18 @@ export const HeroStyled = styled.div`
           display: flex;
           padding: 12px;
 
-          img {
-            width: 40px;
-            height: 40px;
-          }
-
           a {
+            margin-right: 22px;
+            transition: transform 0.2s;
+            display: flex;
             border-radius: 50%;
             width: 40px;
             height: 40px;
-            padding: 6px;
-            transition: transform 0.2s;
-            display: flex;
 
             &:hover {
-              background-color: white;
               border-radius: 50%;
-              padding: 6px;
+              width: 40px;
+              height: 40px;
 
               img {
                 filter: brightness(0%);
