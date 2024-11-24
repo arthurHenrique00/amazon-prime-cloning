@@ -1,10 +1,10 @@
 import styled from 'styled-components'
 
 export const SectionStyled = styled.section`
-  padding: 60px 0;
+  padding: 40px 0;
 
   h2 {
-    font-size: 32px;
+    font-size: 22px;
     color: white;
     margin-bottom: 22px;
     margin-left: 22px;
@@ -31,6 +31,7 @@ export const SectionStyled = styled.section`
           padding: 12px;
           display: none;
           border-radius: 9px;
+          position: absolute;
 
           h2 {
             font-size: 16px;
