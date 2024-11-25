@@ -313,89 +313,16 @@ const Sections = () => {
       </SectionStyled>
       <SectionStyled>
         <h2>Seção de Sitcoms</h2>
-        <div>
-          <ul>
-            <li>
-              <div>
-                <img
-                  src={sitcom1}
-                  onMouseEnter={() => setSitcom1(big_bang_2)}
-                  onMouseOut={() => setSitcom1(big_bang)}
-                />
-                <div className="infos">
-                  <h2>Quarto 1408</h2>
-                  <span>&copy;Ganhador de melhores adaptações</span>
-                  <div className="buttons">
-                    <ul>
-                      <li>
-                        <img id="rotate" src={plus} />
-                      </li>
-                      <li>
-                        <img src={info} />
-                      </li>
-                    </ul>
-                  </div>
-                  <p>
-                    Quarto 1408 foi um filme inspirado em um livro do Stephen
-                    King
-                  </p>
-                </div>
-              </div>
-            </li>
-            <li>
+        <ul>
+          <li>
+            <div>
               <img
-                src={sitcom2}
-                onMouseEnter={() => setSitcom2(silicon_2)}
-                onMouseOut={() => setSitcom2(silicon)}
+                src={sitcom1}
+                onMouseEnter={() => setSitcom1(big_bang_2)}
+                onMouseOut={() => setSitcom1(big_bang)}
               />
               <div className="infos">
-                <h2>Arquivo X</h2>
-                <span>#3 em séries sci-fi e horror</span>
-                <div className="buttons">
-                  <ul>
-                    <li>
-                      <img id="rotate" src={plus} />
-                    </li>
-                    <li>
-                      <img src={info} />
-                    </li>
-                  </ul>
-                </div>
-                <p>Série baseada em qualquer tipo de teoria da conspiração</p>
-              </div>
-            </li>
-            <li>
-              <img
-                src={sitcom3}
-                onMouseEnter={() => setSitcom3(the_office_2)}
-                onMouseOut={() => setSitcom3(the_office)}
-              />
-              <div className="infos">
-                <h2>Sobrenatural</h2>
-                <span>&copy;Mais assistidos do prime</span>
-                <div className="buttons">
-                  <ul>
-                    <li>
-                      <img id="rotate" src={plus} />
-                    </li>
-                    <li>
-                      <img src={info} />
-                    </li>
-                  </ul>
-                </div>
-                <p>
-                  Quarto 1408 foi um filme inspirado em um livro do Stephen King
-                </p>
-              </div>
-            </li>
-            <li>
-              <img
-                src={sitcom4}
-                onMouseEnter={() => setSitcom4(two_man_2)}
-                onMouseOut={() => setSitcom4(two_man)}
-              />
-              <div className="infos">
-                <h2>A morte do demônio</h2>
+                <h2>Quarto 1408</h2>
                 <span>&copy;Ganhador de melhores adaptações</span>
                 <div className="buttons">
                   <ul>
@@ -411,33 +338,103 @@ const Sections = () => {
                   Quarto 1408 foi um filme inspirado em um livro do Stephen King
                 </p>
               </div>
-            </li>
-            <li>
-              <img
-                src={sitcom5}
-                onMouseEnter={() => setSitcom5(wife_and_kids_2)}
-                onMouseOut={() => setSitcom5(wife_and_kids)}
-              />
-              <div className="infos">
-                <h2>Hellraiser</h2>
-                <span>&copy;Ganhador de melhores adaptações</span>
-                <div className="buttons">
-                  <ul>
-                    <li>
-                      <img id="rotate" src={plus} />
-                    </li>
-                    <li>
-                      <img src={info} />
-                    </li>
-                  </ul>
-                </div>
-                <p>
-                  Quarto 1408 foi um filme inspirado em um livro do Stephen King
-                </p>
+            </div>
+          </li>
+          <li>
+            <img
+              src={sitcom2}
+              onMouseEnter={() => setSitcom2(silicon_2)}
+              onMouseOut={() => setSitcom2(silicon)}
+            />
+            <div className="infos">
+              <h2>Arquivo X</h2>
+              <span>#3 em séries sci-fi e horror</span>
+              <div className="buttons">
+                <ul>
+                  <li>
+                    <img id="rotate" src={plus} />
+                  </li>
+                  <li>
+                    <img src={info} />
+                  </li>
+                </ul>
               </div>
-            </li>
-          </ul>
-        </div>
+              <p>Série baseada em qualquer tipo de teoria da conspiração</p>
+            </div>
+          </li>
+          <li>
+            <img
+              src={sitcom3}
+              onMouseEnter={() => setSitcom3(the_office_2)}
+              onMouseOut={() => setSitcom3(the_office)}
+            />
+            <div className="infos">
+              <h2>Sobrenatural</h2>
+              <span>&copy;Mais assistidos do prime</span>
+              <div className="buttons">
+                <ul>
+                  <li>
+                    <img id="rotate" src={plus} />
+                  </li>
+                  <li>
+                    <img src={info} />
+                  </li>
+                </ul>
+              </div>
+              <p>
+                Quarto 1408 foi um filme inspirado em um livro do Stephen King
+              </p>
+            </div>
+          </li>
+          <li>
+            <img
+              src={sitcom4}
+              onMouseEnter={() => setSitcom4(two_man_2)}
+              onMouseOut={() => setSitcom4(two_man)}
+            />
+            <div className="infos">
+              <h2>A morte do demônio</h2>
+              <span>&copy;Ganhador de melhores adaptações</span>
+              <div className="buttons">
+                <ul>
+                  <li>
+                    <img id="rotate" src={plus} />
+                  </li>
+                  <li>
+                    <img src={info} />
+                  </li>
+                </ul>
+              </div>
+              <p>
+                Quarto 1408 foi um filme inspirado em um livro do Stephen King
+              </p>
+            </div>
+          </li>
+          <li>
+            <img
+              src={sitcom5}
+              onMouseEnter={() => setSitcom5(wife_and_kids_2)}
+              onMouseOut={() => setSitcom5(wife_and_kids)}
+            />
+            <div className="infos">
+              <h2>Hellraiser</h2>
+              <span>&copy;Ganhador de melhores adaptações</span>
+              <div className="buttons">
+                <ul>
+                  <li>
+                    <img id="rotate" src={plus} />
+                  </li>
+                  <li>
+                    <img src={info} />
+                  </li>
+                </ul>
+              </div>
+              <p>
+                Quarto 1408 foi um filme inspirado em um livro do Stephen King
+              </p>
+            </div>
+          </li>
+        </ul>
       </SectionStyled>
     </>
   )

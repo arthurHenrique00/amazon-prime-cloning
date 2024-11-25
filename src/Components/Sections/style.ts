@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const SectionStyled = styled.section`
-  padding: 40px 0;
+  padding: 40px 40px;
 
   h2 {
     font-size: 22px;
@@ -10,66 +10,64 @@ export const SectionStyled = styled.section`
     margin-left: 22px;
   }
 
-  div {
-    ul {
-      display: flex;
+  ul {
+    display: flex;
 
-      li {
-        margin-left: 32px;
-        transition: transform 0.2s;
+    li {
+      margin-left: 32px;
+      transition: transform 0.2s;
 
-        img {
-          width: 250px;
-          height: 150px;
-          border-radius: 12px;
-          cursor: pointer;
+      img {
+        width: 250px;
+        height: 150px;
+        border-radius: 12px;
+        cursor: pointer;
+      }
+
+      .infos {
+        background-color: #353b48;
+        width: 250px;
+        padding: 12px;
+        display: none;
+        border-radius: 9px;
+        position: absolute;
+
+        h2 {
+          font-size: 16px;
         }
 
-        .infos {
-          background-color: #353b48;
-          width: 250px;
-          padding: 12px;
-          display: none;
-          border-radius: 9px;
-          position: absolute;
-
-          h2 {
-            font-size: 16px;
-          }
-
-          span {
-            color: #2ecc71;
-            font-size: 12px;
-          }
-
-          p {
-            font-size: 12px;
-            color: white;
-            font-weight: bold;
-          }
+        span {
+          color: #2ecc71;
+          font-size: 12px;
         }
 
-        .buttons {
-          padding: 12px 0;
+        p {
+          font-size: 12px;
+          color: white;
+          font-weight: bold;
+        }
+      }
 
-          ul {
-            list-style: none;
+      .buttons {
+        padding: 12px 0;
 
-            li {
-              img {
-                width: 20px;
-                height: 20px;
-              }
+        ul {
+          list-style: none;
+
+          li {
+            img {
+              width: 20px;
+              height: 20px;
             }
           }
         }
+      }
 
-        &:hover {
-          transform: scale(1.1, 1.1);
+      &:hover {
+        transform: scale(1.1, 1.1);
 
-          .infos {
-            display: block;
-          }
+        .infos {
+          display: block;
         }
       }
     }
