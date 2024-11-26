@@ -14,11 +14,10 @@ export const Original = styled.section`
 
     .exclusive-item {
       color: white;
+      position: relative;
 
       > img {
-        width: 250px;
-        height: 400px;
-        margin-left: 30px;
+        width: 100%;
         border-radius: 12px;
         transition: transform 0.2s;
 
@@ -29,13 +28,28 @@ export const Original = styled.section`
 
       .more {
         position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        display: none;
+
+        padding: 20px;
+        background: linear-gradient(
+          to top,
+          rgba(0, 0, 0, 0.8),
+          rgba(0, 0, 0, 0)
+        );
 
         ul {
           list-style: none;
           display: flex;
+          justify-content: center;
+          align-items: center;
 
           li {
-            margin-left: 12px;
+            margin: 0 12px;
+
             img {
               width: 25px;
               height: 25px;
@@ -43,6 +57,25 @@ export const Original = styled.section`
           }
         }
       }
+
+      &:hover {
+        .more {
+          display: block;
+        }
+      }
+    }
+  }
+
+  #play {
+    background-color: #636e72;
+    padding: 6px;
+    border-radius: 9px;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+
+    img {
+      margin-right: 12px;
     }
   }
 `
