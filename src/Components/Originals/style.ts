@@ -11,6 +11,7 @@ export const Original = styled.section`
 
   .exclusives-originals {
     display: flex;
+    gap: 20px;
 
     .exclusive-item {
       color: white;
